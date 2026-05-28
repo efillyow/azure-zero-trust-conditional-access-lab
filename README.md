@@ -84,53 +84,55 @@ This policy enforces MFA for privileged roles to prevent unauthorized access.
 
 ---
 
-### ✅ Require Compliant Device
-This policy ensures that only managed and compliant devices can access company resources.
 
-![Short description](IAM/RequireCompliantDevice-Assignments.png)
-![Short description](IAM/Require Compliant Device -Grant.png)
-![Short description](IAM/Require Compliant Device -Resources.png)
+### ✅ Require Compliant Device
+This policy ensures only managed and compliant devices can access resources.
+
+![Short Description](IAM/Require-Compliant-Device-Assignments.png)
+![Short Description](IAM/Require-Compliant-Device-Grant.png)
+![Short Description](IAM/Require-Compliant-Device-Resources.png)
 
 ---
 
 ### ✅ Require MFA for Office 365
-This policy enforces MFA specifically for Office 365 applications.
+This policy enforces MFA for Office 365 applications.
 
-![Short description](IAM/Require MFA - Office 365 - Assignments.png)
-![Short description](IAM/Require MFA - Office 365 - Grant.png)
-![Short description](IAM/Require MFA - Office 365 - Resources.png)
+![Short Description](IAM/Require-MFA-Office-365-Assignments.png)
+![Short Description](IAM/Require-MFA-Office-365-Grant.png)
+![Short Description](IAM/Require-MFA-Office-365-Resources.png)
 
 ---
 
-## 💻 Device & Endpoint Security Policies
+## 💻 Device & Endpoint Security
 
 ### ✅ Device Restrictions Policy
-This policy enforces password complexity requirements on enrolled devices.
+Enforces password complexity and device security settings.
 
-![Short description](IAM/Device Restriction Policy.png)
+![Short Description](IAM/Device-Restrictions-Policy.png)
 
 ---
 
 ### ✅ BitLocker Policy
-This policy ensures encryption is enabled on managed endpoints.
+Ensures disk encryption is enabled on managed devices.
 
-![Short description](IAM/Bitlocker Policy.png)
+![Short Description](IAM/Bitlocker-Policy.png)
 
 ---
 
 ### ✅ Windows Compliance Policy
-This policy validates that devices meet security baseline requirements.
+Validates devices meet organizational security requirements.
 
-![Short description](IAM/Windows Compliance Policy.png)
-![Short description](IAM/Windows Compliance Policy Continued.png)
+![Short Description](IAM/Windows-Compliance-Policy.png)
+![Short Description](IAM/Windows-Complianc-Policy-Continued.png)
 
 ---
 
-## 📊 Sign-In Logs
+## 📊 Sign-In Logs Validation
 
-This log demonstrates successful Conditional Access enforcement and MFA validation.
+Demonstrates MFA enforcement and authentication behavior.
 
-![Short description](IAM/Sign-in Logs - Interactive.png)
+![Short Description](IAM/Sign-in-Logs-Interactive.png)
+
 ---
 ##  Sign-In Log Analysis
 
