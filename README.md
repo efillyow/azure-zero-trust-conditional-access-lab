@@ -62,7 +62,7 @@ The following authentication scenarios were executed to validate Conditional Acc
 ### ✅ Require MFA for All Users
 This policy enforces phishing-resistant MFA across all users.
 
-![image alt](https://github.com/efillyow/azure-zero-trust-conditional-access-lab/blob/524baa8578020f4150fd06c585408a8a84d02e10/CA-Require-MFA-All-Users-Assignments.png)
+https://github.com/efillyow/azure-zero-trust-conditional-access-lab/blob/main/IAM/CA-Require-MFA-All-Users-Assignments.png
 IAM/CA-Require-MFA-All-Users-Grant.png
 IAM/CA-Require-MFA-All-Users-Resources.png
 
