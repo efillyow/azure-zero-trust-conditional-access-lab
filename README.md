@@ -64,7 +64,6 @@ This policy enforces phishing-resistant MFA across all users.
 IAM/CA-Require-MFA-All-Users-Assignments.png
 IAM/CA-Require-MFA-All-Users-Grant.png
 IAM/CA-Require-MFA-All-Users-Resources.png
-
 ---
 
 ### ✅ Block Legacy Authentication
@@ -73,7 +72,6 @@ This policy blocks insecure legacy authentication protocols such as IMAP and POP
 IAM/CA-Block-Legacy-Auth1.png
 IAM/CA-Block-Legacy-Auth2.png
 IAM/CA-Block-Legacy-Auth_Assignments.png
-
 ---
 
 ### ✅ Protect Admin Accounts
@@ -126,7 +124,7 @@ IAM/Windows Compliance Policy Continued.png
 
 ---
 
-## 📊 Sign-In Log Validation
+## 📊 Sign-In Logs
 
 This log demonstrates successful Conditional Access enforcement and MFA validation.
 
