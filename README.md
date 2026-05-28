@@ -58,9 +58,6 @@ User → Entra ID → Conditional Access → MFA → Resource Access
 
 ---
 
-## 📸 Screenshots
-screenshots/ca-mfa-policy.png
-screenshots/Sign-in Logs - Interactive.png
 
 ---
 
