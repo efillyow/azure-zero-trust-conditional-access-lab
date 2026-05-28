@@ -1,9 +1,11 @@
 #  Zero Trust Conditional Access Lab (Microsoft Entra ID)
 
 ## Overview
-This project demonstrates a Zero Trust identity model using Microsoft Entra ID Conditional Access policies.
+This project demonstrates the implementation of a Zero Trust identity model using Microsoft Entra ID Conditional Access policies.
 
+The solution enforces strong authentication, blocks legacy protocols, and validates access using device.
 The goal was to secure user authentication by enforcing:
+
 - Multi-Factor Authentication (MFA)
 - Device compliance
 - Blocking legacy authentication
@@ -40,6 +42,7 @@ User → Entra ID → Conditional Access → MFA → Resource Access
 ---
 
 ##  Testing Scenarios
+The following authentication scenarios were executed to validate Conditional Access enforcement:
 
 | Scenario | Result |
 |--------|--------|
@@ -50,8 +53,10 @@ User → Entra ID → Conditional Access → MFA → Resource Access
 | Device compliance | Required 
 
 ---
-
 ##  Sign-In Log Analysis
+
+Analysis of Entra ID sign-in logs revealed:
+
 - MFA satisfied via token claims (PRT behavior)
 - Conditional Access evaluated during authentication
 - Failed login attempts captured (invalid credentials)
@@ -64,6 +69,7 @@ User → Entra ID → Conditional Access → MFA → Resource Access
 
 ## Outcome
 Successfully implemented a Zero Trust model that:
-- Reduced attack surface
-- Secured authentication flows
-- Validated enforcement through real sign-in logs
+- Reduced attack surface by blocking legacy authentication protocols
+- Improved identity security with MFA enforcement
+- Implemented secure emergency access (break-glass account)
+- Validated Zero Trust principles through real-world testing scenarios
