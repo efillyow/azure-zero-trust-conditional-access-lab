@@ -58,6 +58,7 @@ User → Entra ID → Conditional Access → MFA → Resource Access
 
 ---
 
+## Screenshots are included in the IAM folder 
 
 ---
 
