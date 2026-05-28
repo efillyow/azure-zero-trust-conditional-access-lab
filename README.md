@@ -62,43 +62,43 @@ The following authentication scenarios were executed to validate Conditional Acc
 ### ✅ Require MFA for All Users
 This policy enforces phishing-resistant MFA across all users.
 
-https://github.com/efillyow/azure-zero-trust-conditional-access-lab/blob/main/IAM/CA-Require-MFA-All-Users-Assignments.png
-IAM/CA-Require-MFA-All-Users-Grant.png
-IAM/CA-Require-MFA-All-Users-Resources.png
+![Short description](https://github.com/efillyow/azure-zero-trust-conditional-access-lab/blob/main/IAM/CA-Require-MFA-All-Users-Assignments.png)
+![Short description](IAM/CA-Require-MFA-All-Users-Grant.png)
+![Short description](IAM/CA-Require-MFA-All-Users-Resources.png)
 
 ---
 
 ### ✅ Block Legacy Authentication
 This policy blocks insecure legacy authentication protocols such as IMAP and POP.
 
-IAM/CA-Block-Legacy-Auth1.png
-IAM/CA-Block-Legacy-Auth2.png
-IAM/CA-Block-Legacy-Auth_Assignments.png
+![Short description](IAM/CA-Block-Legacy-Auth1.png)
+![Short description](IAM/CA-Block-Legacy-Auth2.png)
+![Short description](IAM/CA-Block-Legacy-Auth_Assignments.png)
 ---
 
 ### ✅ Protect Admin Accounts
 This policy enforces MFA for privileged roles to prevent unauthorized access.
 
-IAM/CA-Protect-Admins-MFA-Assignments.png
-IAM/CA-Protect-Admins-MFA-Grant.png
+![Short description](IAM/CA-Protect-Admins-MFA-Assignments.png)
+![Short description](IAM/CA-Protect-Admins-MFA-Grant.png)
 
 ---
 
 ### ✅ Require Compliant Device
 This policy ensures that only managed and compliant devices can access company resources.
 
-IAM/Require Compliant Device -Assignments.png
-IAM/Require Compliant Device -Grant.png
-IAM/Require Compliant Device -Resources.png
+![Short description](IAM/RequireCompliantDevice-Assignments.png)
+![Short description](IAM/Require Compliant Device -Grant.png)
+![Short description](IAM/Require Compliant Device -Resources.png)
 
 ---
 
 ### ✅ Require MFA for Office 365
 This policy enforces MFA specifically for Office 365 applications.
 
-IAM/Require MFA - Office 365 - Assignments.png
-IAM/Require MFA - Office 365 - Grant.png
-IAM/Require MFA - Office 365 - Resources.png
+![Short description](IAM/Require MFA - Office 365 - Assignments.png)
+![Short description](IAM/Require MFA - Office 365 - Grant.png)
+![Short description](IAM/Require MFA - Office 365 - Resources.png)
 
 ---
 
@@ -107,22 +107,22 @@ IAM/Require MFA - Office 365 - Resources.png
 ### ✅ Device Restrictions Policy
 This policy enforces password complexity requirements on enrolled devices.
 
-IAM/Device Restriction Policy.png
+![Short description](IAM/Device Restriction Policy.png)
 
 ---
 
 ### ✅ BitLocker Policy
 This policy ensures encryption is enabled on managed endpoints.
 
-IAM/Bitlocker Policy.png
+![Short description](IAM/Bitlocker Policy.png)
 
 ---
 
 ### ✅ Windows Compliance Policy
 This policy validates that devices meet security baseline requirements.
 
-IAM/Windows Compliance Policy.png
-IAM/Windows Compliance Policy Continued.png
+![Short description](IAM/Windows Compliance Policy.png)
+![Short description](IAM/Windows Compliance Policy Continued.png)
 
 ---
 
@@ -130,7 +130,7 @@ IAM/Windows Compliance Policy Continued.png
 
 This log demonstrates successful Conditional Access enforcement and MFA validation.
 
-IAM/Sign-in Logs - Interactive.png
+![Short description](IAM/Sign-in Logs - Interactive.png)
 ---
 ##  Sign-In Log Analysis
 
