@@ -58,12 +58,14 @@ The following authentication scenarios were executed to validate Conditional Acc
 
 ## 📸 Conditional Access Policies
 
+
 ### ✅ Require MFA for All Users
 This policy enforces phishing-resistant MFA across all users.
 
 IAM/CA-Require-MFA-All-Users-Assignments.png
 IAM/CA-Require-MFA-All-Users-Grant.png
 IAM/CA-Require-MFA-All-Users-Resources.png
+
 ---
 
 ### ✅ Block Legacy Authentication
