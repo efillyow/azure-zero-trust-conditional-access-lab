@@ -150,3 +150,16 @@ Successfully implemented a Zero Trust model that:
 - Improved identity security with MFA enforcement
 - Implemented secure emergency access (break-glass account)
 - Validated Zero Trust principles through real-world testing scenarios
+
+---
+
+##  Integration with Windows Autopilot + Intune Deployment
+
+A device was used in the Zero Trust Conditional Access lab to:
+
+- Enforce device compliance policies
+- Require managed device access
+- Validate secure authentication behavior
+
+👉 Related Project:  
+https://github.com/efillyow/azure-autopilot-intune-lab
