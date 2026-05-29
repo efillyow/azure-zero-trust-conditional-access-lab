@@ -144,10 +144,6 @@ Analysis of Entra ID sign-in logs revealed:
 
 ---
 
-## Screenshots are included in the IAM folder 
-
----
-
 ## Outcome
 Successfully implemented a Zero Trust model that:
 - Reduced attack surface by blocking legacy authentication protocols
